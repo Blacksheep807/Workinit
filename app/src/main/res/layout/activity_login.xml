@@ -1,0 +1,72 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jonaslamb.android.workinit.Login">
+
+
+    <!--<TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name:"/>-->
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter Name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart = "true"
+        android:layout_alignParentRight = "true"/>
+        <!--android:layout_toEndOf="@+id/nameText"
+        android:text=""
+        android:layout_alignBottom="@+id/nameText"-->
+
+
+    <!--<TextView
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:paddingLeft="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password:"
+        android:layout_below="@+id/nameText"
+        android:layout_alignStart="@+id/nameText"/>-->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="@+id/nameEditText"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/nameEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/nameEditText"
+        android:layout_alignEnd="@+id/nameEditText"/>
+
+    <!--android:layout_toEndOf="@+id/passwordText"
+     android:text=""
+     android:layout_alignBottom="@+id/passwordText"-->
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/passwordText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"/>
+
+
+</RelativeLayout>

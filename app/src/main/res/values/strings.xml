@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Workin it</string>
+
+    <string name="username_text">User Name</string>
+    <string name="password_text">Password</string>
+    <string name="button_login_text">Login</string>
+    <string name="successLogin">Success</string>
+    <string name="unsuccessLogin">Unsuccessful attempt</string>
+    <string name="hello_world">This is the other page</string>
+    <string name="action_settings">Settings</string>
+</resources>
